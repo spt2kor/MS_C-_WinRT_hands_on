@@ -1,0 +1,27 @@
+41:wWinMain[30548] : starting main function
+17:TEST_DLL_With_Ecports_win32[30548] : nDLLWithExportswin32 = 101
+21:TEST_DLL_With_Ecports_win32[30548] : fnDLLWithExportswin32() = 108
+57:wWinMain[30548] : creating thread
+57:wWinMain[30548] : creating thread
+81:wWinMain[30548] : waiting for threads main function
+53:Window1ThreadFunc[29880] : starting the thread
+60:Window1ThreadFunc[90:Window2ThreadFunc[2818029880] : registering the class
+] : starting the thread
+96:Window2ThreadFunc[28180] : registering the class
+63:Window1ThreadFunc[29880] : init instance
+99:Window2ThreadFunc[28180] : init instance
+1722:TestCodeExperimental[:28180] : <Reg_T2>
+TestExperimentalCode[29880] : <Reg_T1>
+30:TestCodeExperimental[28180] : <send update from T2>
+26:operator ()[28180] : [T2]Received:_T2_Changed_
+21:operator ()[28180] : [T1]received:_T2_Changed_
+47:TestCodeExperimental[28180] : <remove T2>
+34:TestExperimentalCode[29880] : <remove T1>
+116:Window2ThreadFunc[28180] : starting message loop for the thread
+81:Window1ThreadFunc[29880] : starting message loop for the thread
+269:WndProc2[28180] : received WM_DESTROY 2 message
+128:Window2ThreadFunc[28180] : closing the thread
+244:WndProc1[29880] : received WM_DESTROY message
+92:Window1ThreadFunc[29880] : closing the thread
+83:wWinMain[30548] : got all threads , closing now.
+92:wWinMain[30548] : closing main function

@@ -1,0 +1,24 @@
+Mon Apr  5 11:06:36 2021@22::DllMain()[17208] : starting App function
+Mon Apr  5 11:06:36 2021@31::winrt::WinRTDLLObserver::ObserverSingleton::NewInstance()[17208] :  Init Singleton: 
+
+Mon Apr  5 11:06:36 2021@16::winrt::WinRTDLLObserver::implementation::MyObserver::Register()[17208] : reg@cmd:Show Number
+Mon Apr  5 11:06:36 2021@16::winrt::WinRTDLLObserver::implementation::MyObserver::Register()[17208] : reg@cmd:Show Grid
+
+Mon Apr  5 11:06:36 2021@42::winrt::WinRTDLLObserver::implementation::MyObserverAutoRevoke::RegisterCmds()[17208] : reg@cmd:Show Number
+Mon Apr  5 11:06:36 2021@42::winrt::WinRTDLLObserver::implementation::MyObserverAutoRevoke::RegisterCmds()[17208] : reg@cmd:Show Grid
+
+Mon Apr  5 11:06:36 2021@16::winrt::WinRTDLLObserver::implementation::MyObserver::Register()[17208] : reg@cmd:Show Number
+
+Mon Apr  5 11:06:36 2021@17::winrt::WinRTDLLObserver::implementation::MySubject::NotifyAsyn()[17208] : Trigger@Show Number@Val=1
+
+Mon Apr  5 11:06:36 2021@17::winrt::WinRTDLLObserver::implementation::MySubject::NotifyAsyn()[17208] : Trigger@Show Grid@Val=2
+
+Mon Apr  5 11:06:37 2021@53::winrt::WinRTDLLObserver::implementation::MyObserverAutoRevoke::DeRegisterCmds()[17208] : Dereg@cmd:Show Grid
+Mon Apr  5 11:06:37 2021@53::winrt::WinRTDLLObserver::implementation::MyObserverAutoRevoke::DeRegisterCmds()[17208] : Dereg@cmd:Show Number
+
+Mon Apr  5 11:06:37 2021@23::winrt::WinRTDLLObserver::implementation::MyObserver::DeRegister()[17208] : Dereg@ccmd:Show Number
+
+Mon Apr  5 11:06:37 2021@23::winrt::WinRTDLLObserver::implementation::MyObserver::DeRegister()[17208] : Dereg@ccmd:Show Number
+Mon Apr  5 11:06:37 2021@23::winrt::WinRTDLLObserver::implementation::MyObserver::DeRegister()[17208] : Dereg@ccmd:Show Grid
+
+Mon Apr  5 11:06:38 2021@33::DllMain()[17208] : closing App function

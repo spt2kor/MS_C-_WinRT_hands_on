@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="WeatherData_App.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WeatherData_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:wdc="using:WeatherData_App"
+    mc:Ignorable="d"
+    Background="LightYellow"
+    Name="MyMainPage">
+
+    <StackPanel Orientation="Vertical">
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20" Background="AntiqueWhite">
+            <TextBlock VerticalAlignment="Center" Margin="20 0 20 0" ><Run Text="Enter the Name of City:"/></TextBlock>
+            <TextBox x:Name="cityName" Margin="20 0 20 0" Width="200" Height="50"/>
+            <Button x:Name="theButton" Click="ClickHandler" Content="Get Weather" Margin="20 0 20 0" />
+            
+        </StackPanel>
+        
+        <StackPanel Orientation="Horizontal"  >
+            <StackPanel Background="SkyBlue" HorizontalAlignment="Left" >
+                <TextBlock  Margin="20 0 20 0" Height="200" Width="200" FocusVisualPrimaryThickness="2" x:Name="WeatherResult" TextWrapping="Wrap"> <Run Text="Weather Report"/></TextBlock>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Right" Background="Brown" Margin=" 30 0 0 0 ">
+                <wdc:WeatherDataUserControl x:Name="wduControl"/>
+            </StackPanel>
+            
+        </StackPanel>
+        
+    </StackPanel>
+</Page>

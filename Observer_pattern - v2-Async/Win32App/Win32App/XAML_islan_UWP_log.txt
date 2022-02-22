@@ -1,0 +1,11 @@
+17:DllMain[16796] : starting App function
+28:DllMain[16796] : closing App function
+ta[16796] : PODData CTOR
+10:PODData[16796] : PODData CTOR
+29:operator =[16796] : PODData operator=()
+10:PODData[16796] : PODData CTOR
+29:operator =[16796] : PODData operator=()
+14:~PODData[52400] : PODData DTOR
+14:~PODData[52400] : PODData DTOR
+14:~PODData[16796] : PODData DTOR
+28:DllMain[16796] : closing App function

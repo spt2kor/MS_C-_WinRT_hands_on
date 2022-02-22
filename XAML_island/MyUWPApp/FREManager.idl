@@ -1,0 +1,35 @@
+namespace MyUWPApp
+{
+     [default_interface]
+     runtimeclass PODData{
+         PODData();
+         String m_msg;
+         String m_value;
+         Int16  m_status;
+     }
+
+     delegate void UpdateOnDataChange(MyUWPApp.PODData data);
+
+     [default_interface]
+     runtimeclass VAObservable
+     {
+        VAObservable();
+
+        void SetData(PODData myData);
+
+        event UpdateOnDataChange NotifyOnDataChange;
+
+     }
+
+
+     [default_interface]
+     runtimeclass MyTestClass
+     {
+        MyTestClass();
+        MyTestClass(Int16 some_value);
+        
+        Int16 GetValue();
+
+        static Int16 GetInstanceCount();
+     }
+}

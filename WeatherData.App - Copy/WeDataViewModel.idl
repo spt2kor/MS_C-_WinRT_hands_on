@@ -1,0 +1,10 @@
+namespace WeatherData_App
+{
+    [bindable]
+    [default_interface]
+    runtimeclass WeDataViewModel : Windows.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        WeDataViewModel();
+        Windows.Foundation.IAsyncAction DoWorkAsync( String cityName);
+    }
+}

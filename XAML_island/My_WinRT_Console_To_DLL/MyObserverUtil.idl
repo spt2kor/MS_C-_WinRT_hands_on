@@ -1,0 +1,27 @@
+namespace MyObserverUtil
+{
+     [default_interface]
+     runtimeclass PODData
+     {
+         PODData();
+         String m_msg;
+         String m_value;
+         Int16  m_status;
+     }
+
+
+     delegate void UpdateOnDataChange(String cmdStr , MyObserverUtil.PODData data);
+
+     [default_interface]
+     runtimeclass MyObservable
+     {
+        MyObservable();
+
+        void SetData(String cmdStr , MyObserverUtil.PODData myData);
+
+        Int16 Register(String cmdString , UpdateOnDataChange func);
+        Int16 DeRegister(String cmdString, UpdateOnDataChange func);
+
+     }
+
+}

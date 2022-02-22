@@ -1,0 +1,8 @@
+namespace WeatherData_App
+{
+    [default_interface]
+    runtimeclass WeatherDataUserControl : Windows.UI.Xaml.Controls.UserControl
+    {
+        WeatherDataUserControl();
+    }
+}

@@ -1,0 +1,40 @@
+#include "pch.h"
+#include "ObserConsumer1.h"
+#include "ObserConsumer1.g.cpp"
+#include "Logger.h"
+
+namespace winrt::ObserverConsumer1::implementation
+{
+
+
+    void ObserConsumer1::Register(const hstring& cmdStr)
+    {
+        //return  m_MyObservable.Register(cmdStr, m_callback);
+        m_token = m_MyObservable.Register(cmdStr, {this, &ObserConsumer1::MyCallback });
+    }
+
+
+    hstring ObserConsumer1::GetData()
+    {
+        return m_strData;
+    }
+
+
+    void ObserConsumer1::DeRegister(const hstring& cmdStr)
+    {
+        return m_MyObservable.DeRegister(cmdStr, m_token);
+    }
+
+
+    void ObserConsumer1::MyCallback(hstring cmd, WinRTDLLObserver::PODData p_data) 
+    {
+        m_strData = to_hstring(string("Recev:ObserConsumer1 (MemFunc):") + to_string(cmd) + string(" => ") + to_string(p_data.m_msg()));
+    }
+
+    ObserConsumer1::ObserConsumer1() : m_MyObservable(WinRTDLLObserver::MyObservable())
+    {
+        m_callback = [this](hstring cmd, WinRTDLLObserver::PODData p_data) {
+            this->m_strData = to_hstring(string("Recev:ObserConsumer1 :") + to_string(cmd) + string(" => ") + to_string(p_data.m_msg()));
+        };
+    }
+}

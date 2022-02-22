@@ -1,0 +1,6 @@
+24:wWinMain[43068] : starting main function
+9:ShowNumberCallback[43068] : MainReceived: _Noitfy@ShowNumber_
+38:wWinMain[43068] :  Consumer1.Received: Recev:ObserConsumer1 (MemFunc):Show Number => _Noitfy@ShowNumber_
+12:ShowGridCallback[43068] : MainReceived: _Noitfy@ShowGrid_
+44:wWinMain[43068] :  Consumer1.Received: Recev:ObserConsumer1 (MemFunc):Show Number => _Noitfy@ShowNumber_
+53:wWinMain[43068] : closing main function

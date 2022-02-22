@@ -1,0 +1,23 @@
+Thu Apr  1 17:23:55 2021@22:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\dllmain.cpp:DllMain()[30508] : starting App function
+Thu Apr  1 17:23:55 2021@31:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\ObserverSingleton.cpp:NewInstance()[30508] :  Init Singleton: 
+Thu Apr  1 17:23:55 2021@10:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\PODData.cpp:PODData()[30508] : PODData CTOR
+Thu Apr  1 17:23:55 2021@16:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\MyObserver.cpp:Register()[30508] : reg@cmd:Show Number
+Thu Apr  1 17:23:55 2021@16:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\MyObserver.cpp:Register()[30508] : reg@cmd:Show Grid
+Thu Apr  1 17:23:55 2021@42:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\MyObserverAutoRevoke.cpp:RegisterCmds()[30508] : reg@cmd:Show Number
+Thu Apr  1 17:23:55 2021@42:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\MyObserverAutoRevoke.cpp:RegisterCmds()[30508] : reg@cmd:Show Grid
+Thu Apr  1 17:23:55 2021@16:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\MyObserver.cpp:Register()[30508] : reg@cmd:Show Number
+Thu Apr  1 17:23:55 2021@10:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\PODData.cpp:PODData()[30508] : PODData CTOR
+Thu Apr  1 17:23:55 2021@17:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\MySubject.cpp:NotifyAsyn()[30508] : Trigger@Show Number@Val=1
+Thu Apr  1 17:23:55 2021@10:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\PODData.cpp:PODData()[30508] : PODData CTOR
+Thu Apr  1 17:23:55 2021@29:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\PODData.cpp:operator =()[30508] : PODData operator=()
+Thu Apr  1 17:23:55 2021@14:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\PODData.cpp:~PODData()[31796] : PODData DTOR
+Thu Apr  1 17:23:56 2021@17:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\MySubject.cpp:NotifyAsyn()[30508] : Trigger@Show Grid@Val=2
+Thu Apr  1 17:23:56 2021@10:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\PODData.cpp:PODData()[30508] : PODData CTOR
+Thu Apr  1 17:23:56 2021@29:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\PODData.cpp:operator =()[30508] : PODData operator=()
+Thu Apr  1 17:23:56 2021@14:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\PODData.cpp:~PODData()[31796] : PODData DTOR
+Thu Apr  1 17:23:57 2021@53:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\MyObserverAutoRevoke.cpp:DeRegisterCmds()[30508] : Dereg@cmd:Show Grid
+Thu Apr  1 17:23:57 2021@53:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\MyObserverAutoRevoke.cpp:DeRegisterCmds()[30508] : Dereg@cmd:Show Number
+Thu Apr  1 17:23:57 2021@23:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\MyObserver.cpp:DeRegister()[30508] : Dereg@ccmd:Show Number
+Thu Apr  1 17:23:57 2021@23:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\MyObserver.cpp:DeRegister()[30508] : Dereg@ccmd:Show Number
+Thu Apr  1 17:23:57 2021@23:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\MyObserver.cpp:DeRegister()[30508] : Dereg@ccmd:Show Grid
+Thu Apr  1 17:23:57 2021@14:C:\Shailendra_Code\hands_on\Observer_pattern\WinRTDLLObserver\PODData.cpp:~PODData()[30508] : PODData DTOR

@@ -1,0 +1,6 @@
+Thu Apr  1 17:23:55 2021@31:C:\Shailendra_Code\hands_on\Observer_pattern\Win32App\Win32App\Win32App.cpp:wWinMain()[30508] : starting main function
+Thu Apr  1 17:23:55 2021@9:C:\Shailendra_Code\hands_on\Observer_pattern\Win32App\Win32App\Win32App.cpp:ShowNumberCallback()[31796] : Obs1:Update:Show Number:Val=1
+Thu Apr  1 17:23:55 2021@17:C:\Shailendra_Code\hands_on\Observer_pattern\Win32App\Win32App\Win32App.cpp:CommonCmdCallback()[31796] : Obs2:AutoRevoke:UpdateShow Number:Val=1
+Thu Apr  1 17:23:56 2021@12:C:\Shailendra_Code\hands_on\Observer_pattern\Win32App\Win32App\Win32App.cpp:ShowGridCallback()[31796] : Obs1:Update:Show Grid:Val=2
+Thu Apr  1 17:23:56 2021@17:C:\Shailendra_Code\hands_on\Observer_pattern\Win32App\Win32App\Win32App.cpp:CommonCmdCallback()[31796] : Obs2:AutoRevoke:UpdateShow Grid:Val=2
+Thu Apr  1 17:23:57 2021@65:C:\Shailendra_Code\hands_on\Observer_pattern\Win32App\Win32App\Win32App.cpp:wWinMain()[30508] : closing main function

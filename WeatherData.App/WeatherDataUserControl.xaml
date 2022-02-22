@@ -1,0 +1,32 @@
+﻿<UserControl
+    x:Class="WeatherData_App.WeatherDataUserControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WeatherData_App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Pressure :"/>
+            <TextBox x:Name="Pressure" Text="{Binding WeDataViewModel.MainWeData._main._pressure }" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Temperature :"/>
+            <TextBox x:Name="Temperature" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Humidity :"/>
+            <TextBox x:Name="Humidity" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Visibility :"/>
+            <TextBox x:Name="Visibility" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Wind Speed :"/>
+            <TextBox x:Name="WindSpeed" />
+        </StackPanel>
+    </StackPanel>
+</UserControl>

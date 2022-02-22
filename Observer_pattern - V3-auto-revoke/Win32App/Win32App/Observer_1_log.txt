@@ -1,0 +1,1 @@
+Thu Apr  1 17:23:55 2021@25:C:\Shailendra_Code\hands_on\Observer_pattern\ObserverConsumer1\ObserConsumer1.cpp:MyCallback()[31796] : DLL:Update:Show Number:Val=1

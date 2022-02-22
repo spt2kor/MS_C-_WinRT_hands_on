@@ -1,0 +1,5 @@
+17:DllMain[43068] : starting App function
+28:DllMain[43068] : closing App function
+ta[43068] : PODData CTOR
+14:~PODData[43068] : PODData DTOR
+28:DllMain[43068] : closing App function

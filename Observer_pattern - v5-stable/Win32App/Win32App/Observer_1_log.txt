@@ -1,0 +1,1 @@
+Mon Apr  5 11:06:36 2021@25::winrt::ObserverConsumer1::implementation::ObserConsumer1::MyCallback()[7304] : DLL:Update:Show Number:Val=1

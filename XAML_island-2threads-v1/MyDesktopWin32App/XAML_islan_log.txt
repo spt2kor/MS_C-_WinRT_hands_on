@@ -1,0 +1,20 @@
+23:wWinMain[29244] : starting main function
+37:wWinMain[29244] : creating thread
+37:wWinMain[29244] : creating thread
+16:Window1ThreadFunc[25276] : starting the thread
+22:Window1ThreadFunc[25276] : registering the class
+5917::wWinMainWindow2ThreadFunc[[2924422672] : ] : waiting for threads main functionstarting the thread
+
+23:Window2ThreadFunc[22672] : registering the class
+25:Window1ThreadFunc[25276] : init instance
+26:Window2ThreadFunc[22672] : init instance
+37:Window2ThreadFunc[22672] : starting message loop for the thread
+36:Window1ThreadFunc[25276] : starting message loop for the thread
+127:WndProc1[25276] : received IDM_ABOUT message
+147:WndProc1[25276] : received WM_DESTROY message
+48:Window1ThreadFunc[25276] : closing the thread
+127:WndProc2[22672] : received IDM_ABOUT message
+148:WndProc2[22672] : received WM_DESTROY message
+49:Window2ThreadFunc[22672] : closing the thread
+61:wWinMain[29244] : got all threads , closing now.
+69:wWinMain[29244] : closing main function

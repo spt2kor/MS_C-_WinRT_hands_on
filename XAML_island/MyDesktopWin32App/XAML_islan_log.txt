@@ -1,0 +1,24 @@
+59:wWinMain[40736] : starting main function
+74:wWinMain[40736] : creating thread
+74:wWinMain[40736] : creating thread
+90:Window2ThreadFunc[43648] : starting the thread
+96:Window2ThreadFunc[43648] : registering the class
+99:Window2ThreadFunc[43648] : init instance
+53:Window1ThreadFunc[46052] : starting the thread
+60:Window1ThreadFunc[46052] : registering the class
+63:Window1ThreadFunc[46052] : init instance
+22:TestCodeExperimental[43648] : <Reg_T2>
+17:TestExperimentalCode[46052] : <Reg_T1>
+30:TestCodeExperimental[43648] : <send update from T2>
+18:TEST_DLL_With_Ecports_win32[40736] : nDLLWithExportswin32 = 101
+22:TEST_DLL_With_Ecports_win32[40736] : fnDLLWithExportswin32() = 108
+36:TEST_DLL_With_Ecports_win32[40736] : Trigger_Data:ShowNumber
+30:operator ()[40736] : received data from Observer:Show Number
+31:operator ()[40736] : POD data from Observer:ShowNumberCmd
+26:operator ()[43648] : [T2]Received:_T2_Changed_
+21:operator ()[43648] : [T1]received:_T2_Changed_
+99:wWinMain[40736] : waiting for threads main function
+47:TestCodeExperimental[43648] : <remove T2>
+34:TestExperimentalCode[46052] : <remove T1>
+116:Window2ThreadFunc[43648] : starting message loop for the thread
+81:Window1ThreadFunc[46052] : starting message loop for the thread

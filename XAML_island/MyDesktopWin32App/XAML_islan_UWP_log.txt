@@ -1,0 +1,2 @@
+42:App[43648] : starting App function
+21:TEST_DLL_With_Ecports_win32[43648] : RegisterObserver

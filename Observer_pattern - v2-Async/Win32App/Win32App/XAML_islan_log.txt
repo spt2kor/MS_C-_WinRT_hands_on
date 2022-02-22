@@ -1,0 +1,4 @@
+24:wWinMain[16796] : starting main function
+40:wWinMain[16796] :  Consumer1.Received: 
+46:wWinMain[16796] :  Consumer1.Received: 
+54:wWinMain[16796] : closing main function

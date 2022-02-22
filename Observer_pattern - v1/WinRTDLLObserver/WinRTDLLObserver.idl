@@ -1,0 +1,35 @@
+namespace WinRTDLLObserver
+{
+     [default_interface]
+     runtimeclass PODData
+     {
+         PODData();
+
+         String m_msg;
+         String m_value;
+         Int16  m_status;
+     }
+
+     [default_interface]
+     runtimeclass EventToken
+     {
+        Int64  token_value{get; };
+        EventToken();
+        EventToken(Int64 tokenvalue);
+     }
+
+     delegate void UpdateOnDataChange(String cmdStr , WinRTDLLObserver.PODData data);
+
+     [default_interface]
+     runtimeclass MyObservable
+     {
+        MyObservable();
+
+        void SetData(String cmdStr , WinRTDLLObserver.PODData myData);
+
+        EventToken Register(String cmdString , UpdateOnDataChange func);
+        void DeRegister(String cmdString, EventToken token_value);
+
+     }
+
+}
